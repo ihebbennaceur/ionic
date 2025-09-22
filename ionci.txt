@@ -1,3 +1,14 @@
 ionic work
 
 une page c une composant et un module en meme temps , pour assuerer le chargement des composant
+
+injection dans le constructeur 
+inject(service...)   generlement utilisé pour les methodes (gards ,intercepteur :methodes et non pas class) et c recommandé a utilisé la methode prédefinie inject()
+
+
+{path :'acc',component; homeaccount}
+mais dans stand alone component faut utiliser loadcompment()
+
+on inject ac:activatedRoute() pour avoir plus d'info sur la route   ,route : Router   route.navigate() ne donne pas d'info
+
+this.actroute.paramMap.subscribe()  quand le lien se change il detecte contrairement a snapshot.paramap
