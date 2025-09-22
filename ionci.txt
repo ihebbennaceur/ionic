@@ -1,1 +1,3 @@
 ionic work
+
+une page c une composant et un module en meme temps , pour assuerer le chargement des composant
