@@ -1,0 +1,95 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP1 JS</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+
+
+<body>
+
+  
+
+
+  <ion-app>
+
+   <ion-header>
+        <ion-toolbar color="secondary">
+        <ion-title>Gestionnaire de Dépenses</ion-title>
+        </ion-toolbar>
+   </ion-header>
+
+
+<ion-content> 
+<ion-card>
+
+  <ion-card-header>
+    <ion-card-title>Nouvelle depense</ion-card-title>
+ </ion-card-header>
+
+        <ion-card-content>
+
+            <ion-input label="intitulé" type ="text"></ion-input>
+            <ion-input label="Montant" type ="number"></ion-input>
+
+            <ion-select label="Default label" placeholder="Favorite Fruit">
+      <ion-select-option value="apple">Apple</ion-select-option>
+      <ion-select-option value="banana">Banana</ion-select-option>
+      <ion-select-option value="orange">Orange</ion-select-option>
+
+      
+
+
+           
+            
+  
+  
+
+
+</ion-list>
+           
+</ion-select>
+            <div class="ion-text-right ion-margin-vertical">
+              <ion-button id="btn-add" fill="outline" color="success"
+                >Ajouter <ion-icon slot="start" name="add"></ion-icon
+              ></ion-button>
+              <ion-button id="btn-reset" fill="outline" color="danger">
+                <ion-icon slot="end" name="close"></ion-icon
+                >Reinitialiser</ion-button
+              >
+            </div>
+        </ion-card-content>
+       
+
+
+<ion-item>
+    <ion-badge slot="start">11</ion-badge>
+    <ion-label>Badge in start slot</ion-label>
+  </ion-item>
+</ion-card>
+
+    </ion-content>
+<ion-footer>
+  </ion-footer> 
+  </ion-app>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
